@@ -29,6 +29,18 @@ int decimel_to_binary(int n)
     return reverseNumber(ans) / 10;
 }
 
+int decimel_to_octal(int n)
+{
+    int ans = 1;
+    while (n > 0)
+    {
+        ans = ans * 10 + n % 8;
+        n /= 8;
+    }
+
+    return reverseNumber(ans) / 10;
+}
+
 int binary_to_decimel(int n)
 {
 
@@ -67,6 +79,6 @@ int main()
 {
     int number;
     cin >> number;
-    cout << octal_to_decimel(number);
+    cout << decimel_to_octal(number);
     return 0;
 }
