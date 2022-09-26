@@ -1,0 +1,1 @@
+{"name":"Local: sorting_array","url":"/home/opu/Desktop/programming/cpp/apnaCollege/array/sorting_array.cpp","tests":[{"id":1664230464004,"input":"7 2 7 3 5 8 3 3","output":"2 3 3 3 5 7 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/opu/Desktop/programming/cpp/apnaCollege/array/sorting_array.cpp","group":"local","local":true}
