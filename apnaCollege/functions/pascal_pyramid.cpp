@@ -21,7 +21,8 @@ int nCr(int n, int r)
 
 int main()
 {
-    int n = 10;
+    int n = 1;
+    cin >> n;
     for (int i = 0; i < n; i++)
     {
         if (i == 0)
@@ -38,8 +39,6 @@ int main()
 
         cout << endl;
     }
-
-    cout << nCr(5, 0);
 
     return 0;
 }
