@@ -1,7 +1,7 @@
 /**
- * @file bouble_sort.cpp
+ * @file selection_sort.cpp
  * @author Musiur Alam Opu
- * @brief Here I have implemented Bouble sort for Integer numbers using an Array;
+ * @brief Here I have implemented selection sort for Integer numbers using an Array;
  * @version 0.1
  * @date 2022-09-27
  *
